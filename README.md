@@ -51,3 +51,6 @@ See CONTRIBUTING.md for guidelines.
 ## 📞 Support
 - GitHub Issues: https://github.com/ch3nji4n/openclaw-gemini-enhanced/issues
 - OpenClaw Community: https://discord.com/invite/clawd
+
+## Contact
+Email: ch3nji4n@gmail.com
