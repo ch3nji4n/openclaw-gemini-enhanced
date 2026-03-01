@@ -1,32 +1,53 @@
-# gemini-enhanced - OpenClaw Skill
+# Gemini Enhanced - OpenClaw Skill
 
 Enhanced Gemini CLI with timeout support for OpenClaw - Prevents task hanging with 3-minute timeout wrapper
 
-## Installation
+## 🎯 Overview
 
+The **Gemini Enhanced** skill adds timeout support to the Gemini CLI for OpenClaw, preventing AI tasks from hanging indefinitely.
+
+## ✨ Features
+
+- **⏱️ 3-Minute Timeout**: Automatically terminates tasks after 3 minutes
+- **🚫 Prevents Hanging**: Stops tasks from freezing OpenClaw sessions
+- **🔧 Easy Integration**: Simple drop-in replacement
+- **📊 Performance Monitoring**: Logs execution time
+
+## 🚀 Quick Start
+
+### Installation
 ```bash
-# Clone this repository
-git clone https://github.com/your-username/gemini-enhanced.git
-
-# Copy to OpenClaw skills directory
-cp -r gemini-enhanced /root/.openclaw/workspace/skills/
+git clone https://github.com/ch3nji4n/openclaw-gemini-enhanced.git
+cp -r openclaw-gemini-enhanced /root/.openclaw/workspace/skills/gemini-enhanced
 ```
 
-## Usage
+### Usage
+```bash
+# Use gemini-timeout instead of gemini
+gemini-timeout "Your query here"
+```
 
-See `SKILL.md` for detailed usage instructions.
+## 📁 Project Structure
+- `gemini-timeout` - Main timeout wrapper script
+- `SKILL.md` - OpenClaw skill documentation
+- `README.md` - This file
+- `LICENSE` - MIT License
 
-## Features
+## 🧪 Examples
+```bash
+# Basic query with timeout
+gemini-timeout "Explain quantum computing"
 
-- Feature 1
-- Feature 2
-- Feature 3
+# In scripts
+RESPONSE=$(gemini-timeout "$QUERY")
+```
 
-## Requirements
+## 📄 License
+MIT License - see LICENSE file
 
-- OpenClaw installed
-- (Add specific requirements)
+## 🤝 Contributing
+See CONTRIBUTING.md for guidelines.
 
-## License
-
-MIT
+## 📞 Support
+- GitHub Issues: https://github.com/ch3nji4n/openclaw-gemini-enhanced/issues
+- OpenClaw Community: https://discord.com/invite/clawd
