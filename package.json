@@ -1,0 +1,20 @@
+{
+  "name": "@openclaw/gemini-enhanced",
+  "version": "1.0.0",
+  "description": "Enhanced Gemini CLI with timeout support for OpenClaw - Prevents task hanging with 3-minute timeout wrapper",
+  "main": "SKILL.md",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "geminienhanced"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/gemini-enhanced.git"
+  }
+}
